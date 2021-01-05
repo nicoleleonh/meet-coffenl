@@ -1,0 +1,198 @@
+body {
+    text-align : center;
+    color      : #000f08;
+    margin     : 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+    margin : 0;
+    border : 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight  : 800;
+    font-size    : 3em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size  : 2em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subtitulo,
+h4,
+h5 {
+    font-weight: 400;
+}
+
+.oscuro {
+    background: #000f08;
+    color     : #ffffff;
+}
+
+.oscuro a {
+    color          : #ffffff;
+}
+
+.sweet-brown {
+    text-align : left;
+    background : #a4452c;
+    color      : #ffffff;
+    padding    : 50px;
+    white-space: nowrap;
+}
+
+.hero-section {
+    text-align       : right;
+    background-image : url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size  : cover;
+    color            : #ffffff;
+    text-shadow      : 0.125em 0.25em 0.125em #707070;
+    padding          : 6.25rem 3.125rem;
+    margin-bottom: 40px;
+}
+
+section, footer {
+    margin-top: 75px;
+}
+
+footer {
+    margin-top: 100px;
+    padding   : 51px 0 13px 0;
+    font-size : 80%;
+}
+
+.charla-texto,
+.evento {
+    display: inline-block;
+
+}
+
+.centrado {
+    width : 75%;
+    margin: 0 auto;
+}
+
+.charla-speaker {
+    width         : 25%;
+    vertical-align: middle;
+}
+
+.charla-texto {
+    width         : 70%;
+    vertical-align: middle;
+    margin-left   : 5%;
+    white-space   : normal;
+}
+
+.evento {
+    width: 30%;
+}
+
+.evento img {
+    width: 75%;
+}
+
+nav {
+    text-align: left;
+    padding   : 1rem 4rem;
+    position  : fixed;
+    width     : 100vw;
+    top       : 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display       : inline-block;
+    margin        : 0 1em;
+    vertical-align: middle;
+}
+
+.icono {
+    width: 2rem;
+}
+
+.icono svg {
+    fill: #ffffff;
+}
+
+footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+
+}
+
+#parrafo1 {
+
+    text-align    : left;
+    font-family   : arial;
+    letter-spacing: 0.5px;
+
+}
+
+#parrafo1 img {
+    width        : 100%;
+    margin       : 40px auto;
+    border-radius: 1%;
+}
+
+section#primero {
+    margin-top: 110px;
+}
+
+section.content {
+    padding: 0px 340px;
+    margin-top: 0px;
+
+}
+
+section.content .title {
+    margin        : 0px;
+    font-family   : 'Open sans', sans-serif;
+    letter-spacing: 0px;
+    color         : #000F08;
+    opacity       : 1;
+    padding       : 20px 59px 20px 10px;
+    text-align    : left;
+    font-weight   : 800;
+    font-size     : 1.75em;
+    margin-bottom : 0.25em;
+}
+
+.content .figure {
+    padding: 30px 0px;
+}
+
+.content .figure img {
+    border-radius: 1%;
+    width        : 97%;
+}
+
+section.content .text {
+    text-align: left;
+    font-size : 18px;
+    padding   : 10px;
+
+}
